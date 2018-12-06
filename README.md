@@ -15,4 +15,4 @@ Set up lighttpd on webserver container
 Saved random number generator script in randomGenerator (called rng.sh). 
 Served with socat: socat -v -v tcp-listen:8080,fork,reuseaddr exec:/bin/rng.sh
 
-Webpage is found at "<hostip>":8080/index.php
+Webpage is found at 'hostip':8080/index.php
