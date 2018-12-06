@@ -4,8 +4,8 @@
 Followed guide from slide to install and configure lxc. 
 Created two unprivileged containers -> randomGenerator and webserver. 
 
-Created static Ip adresses by creating /etc/lxc/dhcp.conf and giving:
-dhcp-host=randomGenerator,10.0.3.11
+Created static Ip adresses by creating /etc/lxc/dhcp.conf and giving: \n
+dhcp-host=randomGenerator,10.0.3.11 \n
 dhcp-host=webserver,10.0.3.12
 
 Setting up iptable/routing host to container
