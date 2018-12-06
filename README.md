@@ -12,6 +12,7 @@ Setting up iptable/routing host to container <br>
 iptables -t nat -A PREROUTING -i wlan0 -p tcp --dport 8080 -j DNAT --to-destination 10.0.3.12:80 <br>
 <br>
 Set up lighttpd on webserver container <br>
+Created index.php. <br>
 Saved random number generator script in randomGenerator (called rng.sh). <br>
 Served with socat: socat -v -v tcp-listen:8080,fork,reuseaddr exec:/bin/rng.sh <br>
 <br>
